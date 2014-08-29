@@ -10,7 +10,7 @@ module.exports = function (patterns, options) {
 	options = options || {};
 
 	var gaze = new Gaze(patterns, {cwd: options.cwd});
-	var _getWatched = Rx.Observable.fromNodeCallback(gaze.relative, undefined, gaze);
+	var _getWatched = Rx.Observable.fromNodeCallback(gaze.relative, gaze);
 
 	var getWatched = function () {
 		return _getWatched().flatMap(function (res) {
