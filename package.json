@@ -1,6 +1,6 @@
 {
   "name": "aster-watch",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Continuous source files reader for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-watch",
