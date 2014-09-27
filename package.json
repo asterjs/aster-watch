@@ -1,6 +1,6 @@
 {
   "name": "aster-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Continuous source files reader for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-watch",
@@ -20,9 +20,9 @@
     "test": "mocha"
   },
   "dependencies": {
-    "aster-src": "0.0.4",
+    "aster-src": "^0.1.2",
     "gaze": "^0.6.4",
-    "rx": "^2.3.8"
+    "rx": "^2.3.11"
   },
   "devDependencies": {
     "mocha": "*",
